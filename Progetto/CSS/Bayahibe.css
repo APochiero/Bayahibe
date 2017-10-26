@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Bilbo');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
+* {
+	margin: 0;
+	font-weight: normal; 
+	font-size: 15px;
+}
+
+body {
+	max-width: 1920px;
+	background-color: rgb(152, 185, 223);
+}
+
+h1, h2 { 
+	padding: 20px;
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	color: rgb(0, 0, 204);
+}
+
+strong {
+	font-weight: bold;
+}
+
+.article_container{
+	position: relative;
+	margin: 30px auto 0px auto;
+	width: 744px;
+	text-align: center;
+}
+
+
+.article_container p {
+	font-family: 'Dosis';
+	font-size: 17px;
+	height:96px;
+	color: rgb(0, 0, 102);
+	padding: 30px 30px 76px 30px;
+	background-image: url(../immagini/Backgrounds/paper-article.png);
+}
+
+.article_container a {
+	font-family: 'Amatic SC';
+	font-weight: bold;
+	font-size: 30px;
+	color: red;
+}
+
+#MoveOnScroll {
+	position: relative;
+	top: 174px;
+}
+
+table {
+	font-family: 'Dosis';
+}
+
+
+
+
+

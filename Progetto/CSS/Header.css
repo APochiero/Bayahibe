@@ -1,0 +1,113 @@
+#header {
+	display: block;
+	background-color: rgb(152, 185, 223);	
+	background-image: url("./../immagini/Backgrounds/head-texture.png");
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 200;
+	box-shadow: 6px -25px 112px 2px rgba(0,0,0,0.75);
+	position: fixed;
+	max-width: 1920px;
+}
+
+#container {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+#navlist {
+	text-align: center;
+	padding-left: 0;
+}
+
+#Menu {
+	display: none;
+}
+.navelement {
+	display: inline-block;
+	margin: 0 3%;
+	position: relative;
+	bottom:40px;
+	line-height: 109px;
+}
+
+.link_header {
+	font-size:17px;
+	font-family: 'Roboto Slab';
+	color: /*rgb(51, 51, 255)*/ rgb(0, 163, 204);
+	font-weight: bold;
+}
+
+.link_header:hover {
+	color:rgb(0, 204, 255);
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo_header {
+	display: inline-block;
+	margin: 0 9px;
+}
+
+#logo_bayahibe{
+	width: 200px;
+	height: 104px;
+	
+}
+
+.login_icon {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.sub_menu {
+	z-index: 100;
+	display: none;
+	position: absolute;
+	top: 110px;
+	padding-left: 0;
+	list-style: none;
+	background-color: rgb(152, 185, 223); 	
+	background-image: url("./../immagini/Backgrounds/head-texture.png");
+}
+
+#sub_menu_menu_bagno {
+	left: 170px;
+	top: 42px;
+}
+
+
+.sub_element {
+	text-align:justify;
+	padding: 10px 50px 10px 20px;
+	border-bottom: solid 1px rgb(0, 163, 204);
+	line-height: 20px;
+}
+
+.sub_element .link_header{
+	font-weight: normal;
+}
+
+#user_profile_header {
+	position: absolute;
+	top: 24px;
+	right: 105px;
+	display: inline-block;
+	line-height: 109px;
+}
+
+
+.user_avatar {
+	height: 30px;
+	width: 30px;
+	border-radius: 25px;
+	position: relative;
+	top: 8px;
+	left: 5px;
+}

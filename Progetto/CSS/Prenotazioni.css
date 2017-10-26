@@ -1,0 +1,150 @@
+
+.PopupConfirm {
+	display: none;
+	position: absolute;
+	top: 15%;
+	left: 0;
+	right: 0;
+	background-image: url("../immagini/Backgrounds/head-texture.png");	
+	background-color: rgb(215, 206, 179);
+	margin: 0 auto;	
+	z-index: 900;
+	padding:1% 2%;
+	width: 376px;
+	border-radius: 3px;
+	font-family: 'Dosis';
+}
+
+.PopupConfirm p {
+	text-align: center;
+}
+
+.PopupConfirm hr {
+	margin: 20px 0;
+}
+
+.PopupConfirm .PopupButtons input{
+	background: rgb(255, 198, 86);
+	border: none;
+	padding: 3% 4%;
+	width: 120px;
+	margin-top: 15px;
+	margin-left: 43px;
+}
+
+.details_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.details_table td {
+	width: 50%;
+	border: 1px solid black;
+	padding: 10px 30px;
+	text-align: center;
+	white-space:pre-wrap;
+	
+}
+
+.details_table tr:nth-child(2n) {
+	background-color: rgb(201, 187, 150);
+	width:100%;
+}
+
+.details_table tr:nth-child(2n-1) {
+	background-color:rgb(215, 210, 169);
+	width: 100%;
+}
+
+.detail {
+	color: rgb(0, 68, 121);
+}
+
+.background_image_section {
+	background-image: url(../immagini/Backgrounds/background.jpg);
+	width: 100%;
+	position:relative;
+
+}
+
+.manual_container {
+	position: relative;
+	margin: 30px auto 20px auto;
+	width: 744px;
+	text-align: center;
+	
+}
+
+.manual {
+	font-family: 'Proxima Regular', cursive;
+	font-size: 20px;
+	color: rgb(0, 0, 102);
+	padding: 30px 20px 50px 20px;
+	background-image: url(../immagini/Backgrounds/paper-manual.png);
+}
+
+.manual img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.manual ul {
+	padding: 20px;
+}
+
+.detail_payment {
+	color: rgb(0, 68, 121); 
+}
+
+
+#paypal-icon {
+	position: relative;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 77%;
+}
+
+#cards-icon {
+	position: relative;
+	top: 20px;
+	width: 358px;
+	height: 45px;
+}
+
+.PopupConfirm .popup_input input {
+	margin-top: 5px;
+}
+
+.PopupConfirm .popup_input:nth-child(5) {
+	float: left;
+	width: 43%;
+}
+
+.PopupConfirm .popup_input:nth-child(6) {
+	float: right;
+	width: 49%;
+}
+
+.PopupConfirm .popup_input:nth-child(6) input {
+	width: 74%;
+}
+
+
+.PopupConfirm .icon_input{
+	top: -34px;
+}
+
+#showIfCards {
+	display: none;
+}
+
+#showIfCards h1 {
+	font-size: 20px;
+	text-align:center;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

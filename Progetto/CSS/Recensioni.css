@@ -1,0 +1,227 @@
+ul {
+	padding:0;
+}
+
+#Recensioni {
+	position: relative;
+	margin: 0 auto;
+	width: 133px;
+}
+
+.NewReview_container {
+	position: relative;
+	margin: 50px auto;
+	width: 800px;
+	height: 345px;
+	border: 2px solid black;
+	background-image: url(../immagini/Backgrounds/Contact.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+.NewReviewMain {
+	width:540px;
+	float:right;
+	padding:40px 20px;
+}
+
+.NewReviewMain ul {
+	padding:0;
+	list-style: none;
+}
+
+#VoteValue {
+	display: none;
+}
+.NewReviewTitle {
+	padding: 20px 20px 0px 20px;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: rgb(0, 0, 204);
+}
+
+.NewReviewStars {
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    top: 95px;
+    left: 298px;	
+}
+
+.NewReviewVote {
+	margin-left: 20px;
+	width:100px;
+	height:22px;
+}
+
+.NewReviewInput_container{
+	height: 47px;
+	width:540px;
+}
+
+.NewReviewInput_container input {
+	margin-left: 10px;
+	border: 2px solid black;
+	background-color: transparent;
+	padding: 5px;
+}
+
+.NewReviewInput_container label {
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: rgb(0, 0, 204);
+}
+
+.NewReviewText {
+	width: 100%;
+	height: 100%;
+}
+
+.NewReviewText label {
+	font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: rgb(0, 0, 204);
+	float:left;
+}
+
+.NewReviewText textarea{
+	margin-left: 20px;
+	width: 464px;
+	height: 120px;
+	border: 2px solid black;
+	background-color: transparent;
+	resize: none;
+}
+
+
+.Star{
+	width: 10px;
+	height: 25px;
+	float:left;
+}
+
+.Send_Review {
+	position:relative;
+	left: 446px;
+	margin-top: 10px;
+	background-color: rgb(255, 198, 86);
+	border: none;
+	font-family: "Amatic SC";
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px 25px 10px 25px;
+}
+
+.Review_Sorting_Nav {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.Review_Sorting_Nav label {
+	font-family: "Amatic SC";
+	font-weight: bold;
+	font-size: 25px;
+	color: red; 
+}
+
+.Review_List {
+	list-style: none;
+	background-image: url(../immagini/Backgrounds/Contact.jpg);
+	position: relative;
+	margin: 0 auto;
+	width: 840px;
+	padding: 30px;
+	border: 2px solid black;
+}
+.Review_List h2 {
+	font-family: 'Amatic SC';
+    font-weight: bold;
+	font-size: 30px;
+    color: rgb(0, 0, 204);
+	text-align: center;
+}
+
+
+.Review_container {
+	position: relative;
+	margin: 0 auto 40px auto;
+	width: 800px;
+	height: 220px;
+	border-bottom: dotted 4px white; 
+	
+}
+
+.Review_UserInfo {
+	float: left;
+	width: 180px;
+	height: 100%;
+	padding: 5px 20px 20px 20px;
+	text-align: center;
+}
+
+.Review_UserInfo img {
+	border-radius: 100px ;
+	width: 100px;
+	height: 100px;
+}
+
+.Review_Main {
+	width: 800px;
+	padding: 20px 0px;
+}
+
+.Review_container h1, q{
+	padding: 20px;
+    font-size: 2em;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    color: rgb(0, 0, 204);
+}
+
+.Review_Text_container {
+	margin-top: 30px;
+	margin-left: 220px;
+	text-align: justify;
+	
+}
+
+
+.Review_nav div {
+	float: left;
+	margin-right: 10px;
+}
+
+
+
+.Review_Vote {
+	width: 100px;
+	height:22px;
+	float:left;
+
+} 
+
+.Review_nav .Like-Dislike {
+	float: none;
+}
+
+.Like-Dislike img {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+
+}
+
+#showMoreReview {
+	text-align: center;
+	width: 840px;
+	background-image: url(../immagini/Backgrounds/Contact.jpg);
+	margin: 10px auto 0 auto;
+	border: 2px solid black;
+	padding: 10px;
+	
+}

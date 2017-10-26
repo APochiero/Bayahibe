@@ -1,0 +1,92 @@
+footer {
+	position: relative;
+	bottom: 0%;
+	background-color: rgb(24, 95, 125);
+	margin-top: 30px;
+	font-family: 'Roboto Slab';
+	color: rgb(204, 204, 179);
+	max-width: 1920px;
+}
+
+footer a {
+	color:rgb(255, 128, 0);
+}
+
+.footer_container {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 200px;
+	padding: 50px;
+}
+
+.footer_container h2 {
+	font-family: "Amatic SC";
+	font-weight: bold;
+	font-size: 30px;
+	color:rgb(255, 128, 0);
+	padding-bottom: 20px;
+}
+
+.left_footer {
+	float: left;
+}
+
+.footer_informations {
+	float:left;
+	padding-right: 10px;
+	border-right: solid 1px  rgb(102, 163, 255);
+}
+
+.footer_informations p {
+	float: right; 
+	padding-left: 20px;
+}
+
+.footer_informations ul {
+	padding-top: 80px;
+}
+
+.footer_informations img {
+	float: left;
+	width: 115px;
+	height: 60px;
+}
+
+.newsletter {
+	float:right;
+	width: 374px;
+	height:200px;
+	padding: 0px 20px;
+	border-right: solid 1px  rgb(102, 163, 255);
+}
+
+.newsletter input[type = "checkbox"] {
+	display:none;
+}
+
+.newsletter p {
+	margin-bottom: 20px;
+}
+
+.footer_button {
+	font-family: "Roboto Slab";
+	font-size: 17px;
+	background: rgb(255, 198, 86);
+	border: none;
+	padding: 10px 5px;
+	width: 90px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.footer_services {
+	float: right;
+	
+}
+
+.footer_services img {
+	width: 40px;
+	height: 40px;
+}
+

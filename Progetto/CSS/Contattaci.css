@@ -1,0 +1,137 @@
+h2{ text-align: center;}
+
+.informations_container {
+	position: relative;
+	margin:0 auto;
+	width: 1300px;
+	height: 445px;
+}
+
+.come_raggiungerci_container {
+	float: left;
+	margin: 30px;
+	width: 800px;
+}
+
+.come_raggiungerci_container img {
+	width: 20px;
+	height: 20px;
+}
+
+.informazioni_auto {
+	float: left;
+	width: 350px;
+}
+
+.informazioni_auto p {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.informazioni_treno_aereo {
+	width: 450px;
+	float: right;
+}
+
+strong {
+	font-size: 30px;
+	font-family: 'Amatic SC';
+	font-weight: bold;
+	color: rgb(0, 0, 204);
+}
+
+ul {
+	list-style:none;
+}
+
+.sublist {
+	list-style: circle;
+}
+
+.sublist strong {
+	font-size: 20px;
+	font-family: 'Bilbo';
+	font-weight: bold;
+	color: red;
+}
+
+aside {
+	margin-top: 30px;
+	float: right;
+}
+
+.contact_wrapper {
+	border: 2px solid black;
+	background-image: url(../immagini/Backgrounds/Contact.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 30px auto 0px auto;
+	padding: 0px 30px 50px 50px;
+	width: 800px;
+}
+.contact_wrapper h1,p,address, submit {
+	text-align: center;
+}
+
+.contact_wrapper header {
+	margin-bottom:30px;
+}
+
+.contact_wrapper label {
+	margin-right: 358px;
+}
+
+.contact_input{
+	background-color: transparent;
+	border: 2px solid black;
+	height: 45px;
+	width: 354px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 0px 10px 0px 10px;
+}
+
+#contact_message {
+	background-color: transparent;
+	border: 2px solid black;
+	height: 200px;
+	width: 754px;
+	padding: 10px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#submit_contact_container{
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+}
+
+#contact_submit {
+	background: rgb(255, 198, 86);
+	border: none;
+	font-family: "Amatic SC";
+	font-weight: bold;
+	font-size: 2em;
+	padding: 15px 40px 15px 40px;
+}
+
+#map_container{
+	position:absolute;
+	width:100%;
+	height: 502px;
+}
+
+.meteo {
+	width:400px;
+	height:312px;
+	border: 0px;
+}
+
+.google_maps {
+	border: none;
+	margin-bottom: 30px;
+	width:100%;
+	height: 500px;
+}

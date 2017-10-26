@@ -1,0 +1,35 @@
+.restaurant_container {
+	position: relative;
+	margin: 40px auto 0 auto;
+	width: 94%;
+	max-width: 1300px;
+	height:703px;
+
+}
+
+.restaurant_container .slider_section {
+	float:right;
+	width: 40vw; 
+    height: 24.25vw; 
+    max-height: 55vh;
+    max-width: 69.78vh;
+	margin: 60px 77px 60px 75px;
+}
+
+.restaurant_article {
+	float: left;
+	width: 96%;
+	background-image: url('../immagini/Backgrounds/Contact.jpg');
+	padding: 2%;
+	text-align: justify;
+	font-family: 'Dosis';
+	border: 1px solid black;
+}
+
+.restaurant_article h2 {
+	padding: 20px;
+	font-size: 2em;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	color: rgb(0, 0, 204);
+}

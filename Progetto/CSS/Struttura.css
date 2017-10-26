@@ -1,0 +1,69 @@
+
+.description_container_left {
+	position: relative;
+	margin: 30px auto 0px auto;
+	width: 1185px;
+}
+
+.description_container_left .article_container{
+	margin: 0px 0px 0px 400px;
+}
+
+.description_container_left img {
+	float: left;
+}
+
+.description_container_right {
+	position: relative;
+	margin: 30px auto 0px auto;
+	width: 1185px;
+}
+
+.description_container_right .article_container{
+	margin: 36px;
+}
+
+.description_container_right  img{
+	float: right;
+}
+
+
+.img_struttura{
+	width: 300px;
+	height: 300px;
+	border-radius: 170px;
+	border: 2px solid rgb(255, 255, 255);
+}
+
+.img_struttura:hover {
+	filter: brightness(140%); //Non supportata in tutti i browser 
+}
+
+
+.Price_section {
+	margin-bottom: 20px;
+}
+
+.Price_table {
+	position: relative;
+	margin: 0 auto;
+	border-collapse: collapse;
+	background-image: url("./../immagini/Backgrounds/paper-contact.png");
+	border: solid 1px rgb(0, 102, 153);
+
+}
+
+.Price_table th {
+	background-color: rgba(51, 133, 255,0.7);
+	border: solid 1px rgb(0, 102, 153);
+	text-align: center;
+	padding: 10px 30px;
+}
+
+.Price_table td {
+	background-color:rgba(51, 133, 255,0.5);
+	border: solid 1px rgb(0, 102, 153);
+	text-align: center;
+	padding: 10px 30px;
+	
+}

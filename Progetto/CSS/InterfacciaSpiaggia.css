@@ -1,0 +1,264 @@
+
+.map_section {
+	width: 800px;
+	padding-bottom:50px;
+	position: relative;
+	margin: 0 auto;
+	font-family: 'Dosis';
+	font-size: 17px;
+}
+
+.extra {
+	padding-top: 5%;
+	text-align: center;
+	height: 87px;
+	margin-bottom: 20px;
+}
+
+.extra_item {
+	position: relative;
+	top: 30px;
+	background-image: url(../immagini/Backgrounds/head-texture.png);
+	padding: 2%;
+}
+
+.extra_item:hover {
+	background-color: rgb(196, 217, 237);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#swatch_icon1 {
+	float: left;
+	position: relative;
+	left: 20%;
+	height:14%;
+	width:14%;
+}
+
+#swatch_icon2 {
+	float: left;
+	position: relative;
+	left: 18%;
+	height:14%;
+	width:14%;
+}
+
+#swatch_icon3 {
+	float: left;
+	position: relative;
+	left: 11%;
+	height:14%;
+	width:14%;
+}
+
+#tab1 {
+	text-align: center;
+	font-weight:bold;
+	display: inline-block;
+	background-color:#558C89;
+	padding: 2.5%;
+	width: 20%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	z-index: 100;
+	position:relative;
+	top: 3px;
+	border: solid 3px rgb(97, 158, 155);
+	border-bottom: solid 3px #558C89;
+	box-shadow: rgba(0,0,0,0.4) 3px -3px 2px;
+}
+
+#tab2 {
+	text-align: center;
+	display: inline-block;
+	background-color:#74AFAD;
+	padding: 2.5%;
+	width: 20%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: solid 3px rgb(97, 158, 155);
+	position: relative;
+	z-index: 60;
+	top: 3px;
+	left: -3%;
+	box-shadow: rgba(0,0,0,0.4) 0px -3px 2px inset;
+}
+
+#tab3 {
+	text-align: center;
+	display: inline-block;
+	background-color:#bedada;
+	padding: 2.5%;
+	width: 20%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: solid 3px rgb(97, 158, 155);
+	position: relative;
+	top: 3px;
+	left: -6%;
+	box-shadow: rgba(0,0,0,0.4) 0px -3px 2px inset;
+}
+
+#tab1:hover {
+	cursor:pointer;
+}
+
+#tab2:hover {
+	cursor:pointer;
+}
+
+#tab3:hover {
+	cursor:pointer;
+}
+
+.header_map {
+	padding-bottom: 5%;
+}
+
+.reservation_date {
+	float:left;
+}
+
+.reservation_date input {
+	width: 146px;
+}
+
+.Beach_form {
+	width: 100%;
+}
+
+.Cancel_button{
+	position:relative;
+	left: 90px;
+	background: rgb(255, 198, 86);
+    border: none;
+    font-family: "Amatic SC";
+    font-weight: bold;
+    font-size: 2em;
+    padding: 15px 40px 15px 40px;
+}
+
+.Reserve_button{
+	position:relative;
+	left: 261px;
+	background: rgb(255, 198, 86);
+    border: none;
+    font-family: "Amatic SC";
+    font-weight: bold;
+    font-size: 2em;
+    padding: 15px 40px 15px 40px;
+}
+
+#map_box {
+	height: 100%;
+	background-color: #558C89;
+	padding-top: 4%;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-bottom: 4%;
+	z-index: 90;
+	box-shadow: rgba(0,0,0,0.4) 3px -2px 2px;
+	border: solid 3px rgb(97, 158, 155);
+}
+
+
+#map {
+	height: 500px;
+	background-image: url("../immagini/Backgrounds/beach-map.jpg");
+	background-size: 100% 100%;
+	border: solid 3px rgb(97, 158, 155);
+}
+
+#umbrella_grid {
+	text-align: center;
+	border-collapse: collapse;
+	padding: 10px 30px;
+	border-style: none;
+	position: relative;
+	top: 38%;
+	margin: 0 auto;
+}
+
+.umbrella_number {
+	font-family: 'Cedarville Cursive';
+	font-weight: bold; 
+	color: rgb(160, 84, 39);
+	font-size: 17px;
+	letter-spacing: 2px;
+	border-style: none;
+	line-height: 5px;
+	padding: 2px 0;
+}
+
+.umbrella_selected {
+	border-style: none;
+	background-image: url("../immagini/Icons/umbrella_selected.png");
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	padding: 25px 30px;
+}
+
+.umbrella_user {
+	border-style: none;
+	background-image: url("../immagini/Icons/umbrella_user.png");
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	padding: 25px 30px;
+}
+
+
+.umbrella_reserved {
+	border-style: none;
+	background-image: url("../immagini/Icons/umbrella_reserved.png");
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	padding: 25px 30px;
+}
+
+.umbrella_available {
+	border-style: none;
+	background-image: url("../immagini/Icons/umbrella_available.png");
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	padding: 25px 30px;
+}
+
+.umbrella_toBeCanceled {
+	border-style: none;
+	background-image: url("../immagini/Icons/umbrella_toBeCanceled.png");
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	padding: 25px 30px;
+}
+
+.speechBubble {
+	position: absolute;
+	text-align: center;
+	font-family: 'Amatic SC';
+	font-weigth: bold;
+	font-size:20px;
+	color: black;
+	padding: 3px 8px;
+	background-color: rgb(194, 194, 163);
+	border: 2px solid rgb(0, 51, 204);
+	border-radius: 10px;
+}
+
+.speechBubble:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: -10px;
+	border: 5px solid;
+	border-color:  transparent  transparent rgb(0, 51, 204) rgb(0, 51, 204);
+}
